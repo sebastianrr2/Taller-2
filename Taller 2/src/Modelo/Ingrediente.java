@@ -6,7 +6,7 @@ package Modelo;
  *agregar o eliminar de algún elemento en un pedido.
  */
 
-public class Ingredientes {
+public class Ingrediente {
 
 	// ************************************************************************
 	// Atributos
@@ -36,7 +36,7 @@ public class Ingredientes {
 	 * Construye un nuevo ingrediente e inicializa sus 
 	 * atributos con la información de los parámetros. 
 	 */
-	public Ingredientes(String nombre, int costoAdicional) 
+	public Ingrediente(String nombre, int costoAdicional) 
 	{
 		this.nombre = nombre;
 		this.costoAdicional = costoAdicional;
